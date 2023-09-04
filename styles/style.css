@@ -16,6 +16,11 @@ header {
     margin-bottom: 96px;
 }
 
+header .logo {
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.6rem;
+}
+
 ul {
     display: flex;
     gap: 48px;
@@ -32,9 +37,17 @@ ul {
 .topContainer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
+    border-bottom: 1px solid rgba(177, 176, 176, 0.363);
 }
 
 .newsCardsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottomContainer {
     display: flex;
     flex-direction: column;
     gap: 30px;
