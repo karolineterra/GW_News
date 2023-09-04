@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1260px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 96px;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+}
+.menuLink {
+    list-style: none;
+}
+.menuLink a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsCardsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
